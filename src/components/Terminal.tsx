@@ -50,6 +50,15 @@ export const Terminal: React.FC = () => {
     }
   };
 
+  const asciiArt = `
+    ██╗███████╗██████╗ ██╗███╗   ██╗     ██╗ ██████╗ ███████╗███████╗██████╗ ██╗  ██╗     ██╗ ██████╗ ██╗   ██╗
+    ██║██╔════╝██╔══██╗██║████╗  ██║     ██║██╔═══██╗██╔════╝██╔════╝██╔══██╗██║  ██║     ██║██╔═══██╗╚██╗ ██╔╝
+    ██║█████╗  ██████╔╝██║██╔██╗ ██║     ██║██║   ██║███████╗█████╗  ██████╔╝███████║     ██║██║   ██║ ╚████╔╝ 
+██╗ ██║██╔══╝  ██╔══██╗██║██║╚██╗██║██   ██║██║   ██║╚════██║██╔══╝  ██╔═══╝ ██╔══██║██   ██║██║   ██║  ╚██╔╝  
+╚█████╔╝███████╗██║  ██║██║██║ ╚████║╚█████╔╝╚██████╔╝███████║███████╗██║     ██║  ██║╚█████╔╝╚██████╔╝   ██║   
+ ╚════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝     ╚═╝  ╚═╝ ╚════╝  ╚═════╝    ╚═╝   
+  `;
+
   return (
     <div className="min-h-screen p-4 md:p-8 flex items-center justify-center">
       <div 
@@ -58,6 +67,9 @@ export const Terminal: React.FC = () => {
         style={{ minHeight: '60vh', maxHeight: '80vh' }}
         onClick={handleContainerClick}
       >
+        <div className="text-green-500 font-mono whitespace-pre mb-4">
+          {asciiArt}
+        </div>
         <div className="typing-animation mb-4">
           Welcome to my interactive web terminal.
           <br />
