@@ -7,6 +7,6 @@ interface CommandProps {
 
 export const Command: React.FC<CommandProps> = ({ text }) => (
   <div className="terminal-prompt text-gray-300">
-    {text}
+    <span className="command-text">{text}</span>
   </div>
 );

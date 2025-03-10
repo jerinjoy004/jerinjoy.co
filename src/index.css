@@ -53,3 +53,24 @@ body {
 .command:hover {
   opacity: 0.8;
 }
+
+.command-text {
+  color: #f1f1f1;
+}
+
+.output-text {
+  color: #a0a0a0;
+}
+
+/* Add a blinking cursor effect to the input */
+input:focus {
+  caret-color: rgb(var(--terminal-green));
+}
+
+/* Make the terminal look more authentic */
+@media (min-width: 640px) {
+  .terminal-window {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
