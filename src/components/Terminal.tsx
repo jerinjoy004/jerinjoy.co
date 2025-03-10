@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { Command } from './Command';
 import { Output } from './Output';
@@ -50,17 +51,12 @@ export const Terminal: React.FC = () => {
   };
 
   const asciiArt = `
-   ╔╗╔═╗╦═╗╦╔╗╔
-   ╠╩╗║╣ ╠╦╝║║║║
-   ╚═╝╚═╝╩╚═╩╝╚╝
-
-   ╔╗╔═╗╔═╗╔═╗╔═╗╦ ╦
-   ╠╩╗║ ║╚═╗║╣ ╠═╝╠═╣
-   ╚═╝╚═╝╚═╝╚═╝╩  ╩ ╩
-
-   ╔╗╔═╗╦ ╦
-   ╠╩╗║ ║╚╦╝
-   ╚═╝╚═╝ ╩ 
+    ██╗███████╗██████╗ ██╗███╗   ██╗     ██╗ ██████╗ ███████╗███████╗██████╗ ██╗  ██╗     ██╗ ██████╗ ██╗   ██╗
+    ██║██╔════╝██╔══██╗██║████╗  ██║     ██║██╔═══██╗██╔════╝██╔════╝██╔══██╗██║  ██║     ██║██╔═══██╗╚██╗ ██╔╝
+    ██║█████╗  ██████╔╝██║██╔██╗ ██║     ██║██║   ██║███████╗█████╗  ██████╔╝███████║     ██║██║   ██║ ╚████╔╝ 
+██╗ ██║██╔══╝  ██╔══██╗██║██║╚██╗██║██   ██║██║   ██║╚════██║██╔══╝  ██╔═══╝ ██╔══██║██   ██║██║   ██║  ╚██╔╝  
+╚█████╔╝███████╗██║  ██║██║██║ ╚████║╚█████╔╝╚██████╔╝███████║███████╗██║     ██║  ██║╚█████╔╝╚██████╔╝   ██║   
+ ╚════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝     ╚═╝  ╚═╝ ╚════╝  ╚═════╝    ╚═╝   
   `;
 
   return (
@@ -74,7 +70,7 @@ export const Terminal: React.FC = () => {
         <div className="text-green-500 font-mono whitespace-pre mb-4">
           {asciiArt}
         </div>
-        <div className="mb-4">
+        <div className="typing-animation mb-4">
           Welcome to my interactive web terminal.
           <br />
           For a list of available commands, type <span className="text-green-500">'help'</span>.
