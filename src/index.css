@@ -19,24 +19,20 @@ body {
   color: rgb(var(--terminal-text));
   margin: 0;
   padding: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .typing-animation {
   overflow: hidden;
-  border-right: 2px solid rgb(var(--terminal-green));
   white-space: nowrap;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(40, end);
   margin: 0;
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(var(--terminal-green)) }
 }
 
 .terminal-prompt::before {
@@ -68,9 +64,19 @@ input:focus {
 }
 
 /* Make the terminal look more authentic */
-@media (min-width: 640px) {
-  .terminal-window {
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+.terminal-window {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.terminal-link {
+  color: rgb(var(--terminal-green));
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terminal-link:hover {
+  opacity: 0.8;
 }

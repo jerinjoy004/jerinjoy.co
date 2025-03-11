@@ -12,7 +12,9 @@ export const commands: { [key: string]: string } = {
 
   about: `I am a software developer passionate about creating elegant solutions to complex problems.
 Currently working on web applications and exploring new technologies.
-Type 'skills' to see my technical expertise or 'projects' to view my work.`,
+Type 'skills' to see my technical expertise or 'projects' to view my work.
+
+<a href="https://drive.google.com/file/d/1M6VBr_KQghBQU3YqJ19qWrXfL9ohF28A/view?usp=sharing" class="terminal-link" target="_blank" rel="noopener noreferrer">View my Resume</a>`,
 
   projects: `My Recent Projects:
 1. Terminal Portfolio - Interactive terminal-style portfolio website
@@ -21,9 +23,9 @@ Type 'skills' to see my technical expertise or 'projects' to view my work.`,
 Type 'social' to view my GitHub for more projects.`,
 
   social: `Connect with me:
-• GitHub: github.com/yourusername
-• LinkedIn: linkedin.com/in/yourusername
-• Twitter: @yourusername`,
+• GitHub: <a href="https://github.com/yourusername" class="terminal-link" target="_blank" rel="noopener noreferrer">github.com/yourusername</a>
+• LinkedIn: <a href="https://linkedin.com/in/yourusername" class="terminal-link" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourusername</a>
+• Twitter: <a href="https://twitter.com/yourusername" class="terminal-link" target="_blank" rel="noopener noreferrer">@yourusername</a>`,
 
   skills: `Technical Skills:
 • Frontend: React, TypeScript, TailwindCSS
@@ -37,8 +39,8 @@ Type 'social' to view my GitHub for more projects.`,
 2019-2021    | Software Engineer`,
 
   contact: `Get in touch:
-• Email: your.email@example.com
-• LinkedIn: linkedin.com/in/yourusername
+• Email: <a href="mailto:your.email@example.com" class="terminal-link">your.email@example.com</a>
+• LinkedIn: <a href="https://linkedin.com/in/yourusername" class="terminal-link" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourusername</a>
 Please reach out for collaboration opportunities!`,
 
   clear: "CLEAR_TERMINAL"
