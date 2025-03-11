@@ -58,11 +58,6 @@ body {
   color: #a0a0a0;
 }
 
-/* Add a blinking cursor effect to the input */
-input:focus {
-  caret-color: rgb(var(--terminal-green));
-}
-
 /* Make the terminal look more authentic */
 .terminal-window {
   height: 100vh;
@@ -79,4 +74,9 @@ input:focus {
 
 .terminal-link:hover {
   opacity: 0.8;
+}
+
+/* Remove the blinking cursor when focusing the input */
+input:focus {
+  caret-color: transparent;
 }
