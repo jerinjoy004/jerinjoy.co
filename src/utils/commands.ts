@@ -20,7 +20,8 @@ Type 'skills' to see my technical expertise or 'projects' to view my work.
 1. Terminal Portfolio - Interactive terminal-style portfolio website
 2. E-commerce Platform - Full-stack shopping application
 3. Task Management System - React-based project management tool
-Type 'social' to view my GitHub for more projects.`,
+
+You can see all my public projects at <a href="https://github.com/yourusername" class="terminal-link" target="_blank" rel="noopener noreferrer">GitHub</a>`,
 
   social: `Connect with me:
 • GitHub: <a href="https://github.com/yourusername" class="terminal-link" target="_blank" rel="noopener noreferrer">github.com/yourusername</a>
