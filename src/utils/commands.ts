@@ -13,7 +13,7 @@ export const commands: { [key: string]: string } = {
   about: `I am a IT student at Cochin University of Science and Technology. That's all there is to say rn.
 You can see my <a href="https://drive.google.com/file/d/1M6VBr_KQghBQU3YqJ19qWrXfL9ohF28A/view?usp=sharing" class="terminal-link" target="_blank" rel="noopener noreferrer">resume</a> here.`,
 
-  projects: `You can see all my public projects at <a href="https://github.com/yourusername" class="terminal-link" target="_blank" rel="noopener noreferrer">GitHub</a>`,
+  projects: `You can see all my public projects at <a href="https://github.com/jerinjoy004" class="terminal-link" target="_blank" rel="noopener noreferrer">GitHub</a>`,
 
   social: `Connect with me:
 • GitHub: <a href="https://github.com/jerinjoy004" class="terminal-link" target="_blank" rel="noopener noreferrer">github.com/jerinjoy004</a>
