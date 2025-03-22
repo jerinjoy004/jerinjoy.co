@@ -21,7 +21,6 @@ You can see my <a href="https://drive.google.com/file/d/1M6VBr_KQghBQU3YqJ19qWrX
 
   skills: `Technical Skills:
 • Languages: Python, C/C++ 
-• Frameworks: Django, Flutter, Supabase
 • Tools: Git, GPT, Supabase, VSCode
 • Currently learning: Cybersecurity`,
 
